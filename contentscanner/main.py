@@ -1,7 +1,6 @@
 from contentscanner.ContentScanner import ContentScanner
 from .exceptions.exceptions import ExceptionUrl, ExceptionGetWordlist
 from argparse import ArgumentParser
-from
 from asyncio import run
 from sys import exit
 
