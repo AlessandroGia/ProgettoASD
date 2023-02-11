@@ -1,0 +1,7 @@
+dist
+.pytest_cache
+wordlist.txt
+.coverage
+tests/.ceverage
+tests/.pytest_cache
+contentscanner/.ceverage

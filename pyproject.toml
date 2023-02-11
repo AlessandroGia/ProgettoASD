@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "contentscanner"
+version = "0.1.0"
+description = ""
+authors = ["AlessandroGia <alexgiacento@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.3"
+requests = "^2.28.2"
+argparse = "^1.4.0"
+python-dotenv = "^0.21.1"
+
+
+[tool.poetry.group.dev.dependencies]
+invoke = "^2.0.0"
+pytest = "^7.2.1"
+coverage = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+contentscanner = 'contentscanner.main:main'
