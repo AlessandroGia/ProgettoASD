@@ -5,3 +5,4 @@ wordlist.txt
 tests/.ceverage
 tests/.pytest_cache
 contentscanner/.ceverage
+.idea
